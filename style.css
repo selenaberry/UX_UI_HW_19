@@ -97,9 +97,24 @@ nav ul li {
     background-color: #FFF5FA; 
     padding: 5px;
     border-radius: 30px; 
-    margin-top: 10; 
+    margin-top: 20; 
 }
 
+.lexend-description button {
+    background-color: #C7EBFF;
+    color: rgb(0, 89, 131);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+}
+
+.lexend-description button:hover {
+    background-color: lightblue;
+}
 
 /* My UX Skills */
 .mySkills {
@@ -129,21 +144,7 @@ nav ul li {
     border-radius: 0%;
 }
 
-.lexend-description button {
-    background-color: #C7EBFF;
-    color: rgb(0, 89, 131);
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    
-}
 
-.lexend-description button:hover {
-    background-color: lightblue;
-}
 
 /* My Work Section Constructed using CSS Grid */
 .myWork {
@@ -178,12 +179,20 @@ nav ul li {
 }
 
 /* Footer CSS */
-footer {
+.footer {
     background-color: #FFF5FA; 
     padding: 10px;
     width: 100%;
-    text-align: center;
     position: static;
     bottom: 0;
-    font-family: 'Lexend', sans-serif; 
+    font-family: 'Lexend', sans-serif;
 }
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0 300px 0 300px;
+}
+
+
