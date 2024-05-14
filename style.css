@@ -179,7 +179,7 @@ nav ul li {
 }
 
 /* Footer CSS */
-.footer {
+footer {
     background-color: #FFF5FA; 
     padding: 10px;
     width: 100%;
@@ -188,7 +188,7 @@ nav ul li {
     font-family: 'Lexend', sans-serif;
 }
 
-.ul {
+ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
